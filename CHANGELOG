@@ -9,3 +9,4 @@ Sir Fredrick <sirfredrick@vivaldi.net> (5):
       2022-03-04 Change background -
       2022-03-04 Update input - Modifies input to better fit with pocketnes controls
       2022-03-04 Add CHANGELOG -
+      2022-03-04 Remove .lst requirement from Makefile -
