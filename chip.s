@@ -99,7 +99,7 @@ NeedRedrawScreen: .res 1
   sta PPUADDR
 
   ldx #8
-: lda #$2a
+: lda #$0d
   sta PPUDATA
   lda #$0f
   sta PPUDATA
