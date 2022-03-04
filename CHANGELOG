@@ -1,0 +1,11 @@
+These modifications were made to better incorporate the NES-CHIP-8 emulation
+into the emu-ception project. This project is in no way affiliated or endorsed
+by the original author(s) of NES-CHIP-8. The original project can be found at 
+https://github.com/NovaSquirrel/NES-CHIP-8
+
+Sir Fredrick <sirfredrick@vivaldi.net> (5):
+      2022-03-04 Add Makefile -
+      2022-03-04 Change game to Pong -
+      2022-03-04 Change background -
+      2022-03-04 Update input - Modifies input to better fit with pocketnes controls
+      2022-03-04 Add CHANGELOG -
