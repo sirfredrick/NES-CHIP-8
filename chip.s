@@ -241,18 +241,44 @@ BGColors:
 
   lda #0
   sta keyboard+4
-  sta keyboard+6
+  sta keyboard+1
+  sta keyboard+12
+  sta keyboard+13
 
   lda keydown
   and #KEY_LEFT
   beq :+
-    inc keyboard+4
+    inc keyboard+1
   :
 
   lda keydown
   and #KEY_RIGHT
   beq :+
-    inc keyboard+6
+    inc keyboard+4
+  :
+  
+  lda keydown
+  and #KEY_UP
+  beq :+
+    inc keyboard+1
+  :
+
+  lda keydown
+  and #KEY_DOWN
+  beq :+
+    inc keyboard+4
+  :
+  
+  lda keydown
+  and #KEY_A
+  beq :+
+    inc keyboard+12
+  :
+  
+  lda keydown
+  and #KEY_B
+  beq :+
+    inc keyboard+13
   :
 
   rts
